@@ -122,11 +122,6 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-chess@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/chess/-/chess-1.0.1.tgz#dfc6af61214b9ed57449c7b8c114ee993343be7a"
-  integrity sha512-POMECoqz0VY+Nhr5FxdhznkG8ru6mVFrbWWCES9h//fsQs8ObQY3XTESaTZxf+big1PLfzabQjdpLwHfJu2J+A==
-
 combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
