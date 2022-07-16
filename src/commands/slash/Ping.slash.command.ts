@@ -1,5 +1,5 @@
 import { BaseCommandInteraction, Client, Interaction } from 'discord.js';
-import { Command as SlashCommand } from '../../Command';
+import { SlashCommand } from '../../Command';
 
 export const Ping_Slash: SlashCommand = {
 	name: 'ping',
