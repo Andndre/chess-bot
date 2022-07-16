@@ -18,6 +18,6 @@ client.on('interactionCreate', (interaction: Interaction) =>
 	onInteractionCreate(client, interaction)
 );
 
-client.on('message', onMessage);
+client.on('messageCreate', onMessage);
 
 client.login(process.env.BOT_TOKEN);
