@@ -7,7 +7,9 @@ export const onReady = async (client: Client) => {
 	}
 
 	await client.application.commands.set(Commands);
-	client.user.setActivity('Under development', { type: 'LISTENING' });
+	client.user.setPresence({
+		activities: [{ name: 'Under development', type: 0 }],
+	});
 
 	console.log(`${client.user.username} is online`);
 };
