@@ -2,4 +2,6 @@
 
 ### Still under development
 
-### [Related project](https://github.com/Andndre/chess)
+### Related projects
+- [Chess Engine](https://github.com/Andndre/chess)
+- [Chess on the Web](https://github.com/Andndre/chess-web)
