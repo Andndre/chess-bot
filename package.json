@@ -5,7 +5,8 @@
 		"dotenv": "^16.0.1"
 	},
 	"scripts": {
-		"start": "ts-node src/Bot.ts"
+		"start": "ts-node --transpile-only src/Bot.ts",
+		"dev": "ts-node src/Bot.ts"
 	},
 	"devDependencies": {
 		"@types/node": "^18.0.5",
