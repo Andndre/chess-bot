@@ -3,7 +3,7 @@ import { SlashCommand } from '../../Command';
 
 export const Ping_Slash: SlashCommand = {
 	name: 'ping',
-	description: 'Returns a greeting',
+	description: 'View the latency of the bot',
 	type: 'CHAT_INPUT',
 	run: async (_client: Client, interaction: BaseCommandInteraction) => {
 		const startTime = Date.now();
