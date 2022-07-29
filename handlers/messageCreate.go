@@ -9,7 +9,7 @@ import (
 
 func MessageCreate(s *discordgo.Session, m * discordgo.MessageCreate) {
 
-	const PREFIX = "chdev"
+	const PREFIX = "ch"
 
 	// Ignore all messages created by the bot itself
 	if m.Author.ID == s.State.User.ID {
